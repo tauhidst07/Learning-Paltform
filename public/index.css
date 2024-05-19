@@ -1,0 +1,21 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.loaderdiv{
+    width: 100vw;
+    height: 100vh;
+    background: #000814;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body{
+    overflow: hidden;
+    background-color: #000814;
+  }
+
+  
