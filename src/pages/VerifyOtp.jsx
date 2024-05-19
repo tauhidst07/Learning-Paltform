@@ -48,11 +48,11 @@ const VerifyOtp = () => {
                     onChange={setOtp}
                     numInputs={6}
                     renderSeparator={<span>-</span>}
-                    inputStyle="w-[20px] rounded-[8px] border-[1px] border-richblack-500 text-[3rem] text-center"
+                    inputStyle="w-[20px] rounded-[8px] border-[1px] border-richblack-500 lg:text-[3rem] text-[2rem] text-center"
                     focusStyle="border-[5px] border-red-500"
                     isInputNum={true}
                     shouldAutoFocus={true}
-                    containerStyle="flex justify-between gap-4"
+                    containerStyle="flex justify-between lg:gap-4 gap-2"
                     renderInput={(props) => <input {...props} />}
 
                     />
