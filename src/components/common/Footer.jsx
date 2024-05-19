@@ -173,7 +173,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">Made by Tauhid & Fareeza © 2024 SkillSphere</div>
+          <div className="text-center">Made by Tauhid © 2024 SkillSphere</div>
         </div>
       </div>
     </div>
