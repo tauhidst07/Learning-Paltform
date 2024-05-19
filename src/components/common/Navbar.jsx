@@ -118,7 +118,7 @@ const Navbar = ({ setProgress }) => {
                             }
                             <div className=' mt-4 mb-4 bg-richblack-25 w-[200px] h-[2px]'></div>
                             <p className=' text-xl text-yellow-50 font-semibold'>Courses</p>
-                            <div className=' flex flex-col items-end pr-4'>
+                            <div className=' flex flex-col items-center pr-4'>
                                 {
                                     sublinks?.length < 0 ? (<div></div>) : (
                                         sublinks?.map((element, index) => (
